@@ -1,4 +1,4 @@
-# pmb-xarxallibres-bionic
+# PMB For XarxaLlibres - BIONIC Version (18.04)
 
 In this repository you will find a modified version of PMB from LliureX in order
 to solve the `XarxaLlibres Situation`.
@@ -22,3 +22,5 @@ mv pmb pmb-orig
 git clone https://github.com/aberlanas/pmb-xarxallibres-bionic.git 
 ln -s /usr/share/pmb-xarxallibres-bionic /usr/share/pmb
 ```
+
+
