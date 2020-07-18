@@ -3,6 +3,23 @@
 In this repository you will find a modified version of PMB from LliureX in order
 to solve the `XarxaLlibres Situation`.
 
+## Installation Over LliureX 19
+
+### Install the Server Flavour.
+
+From the official page [http://releases.lliurex.net/](Of LliureX ISOs), dowload the Latest server and Install it in a VM with 2 Ethernet cards.
+
+
+### Execute the Zero-Server-Wizard.
+
+In the ZeroCenter, search for the *Zero Server Wizard* assistant and run it.
+
+### Update the system
+	
+```
+sudo lliurex-upgrade -s
+```
+
 ## Services
 
 Apache and MySQL are the requisites, other stuff like **http_proxy** is recommended but not necessary.
