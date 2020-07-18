@@ -7,8 +7,10 @@ to solve the `XarxaLlibres Situation`.
 
 ### Install the Server Flavour.
 
-From the official page [http://releases.lliurex.net/](Of LliureX ISOs), dowload the Latest server and Install it in a VM with 2 Ethernet cards.
+From the official page [Of LliureX's ISOs](http://releases.lliurex.net/), download the Latest server and Install it in a VM with 2 Ethernet cards.
 
+* eth0 -> Simulate ClassRoom Network (Internal NET)
+* eth1 -> Bridge to Physical Ethernet Host device
 
 ### Execute the Zero-Server-Wizard.
 
