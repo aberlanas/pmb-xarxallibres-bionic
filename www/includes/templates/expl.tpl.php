@@ -309,6 +309,7 @@ $expl_form.="</div>
 		!!modifier!!
 		$rfid_program_button
 		!!dupliquer!!
+		!!dupliquer_bllibres!!
 		!!link_audit!!
 	</div>
 	<div class='right'>

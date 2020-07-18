@@ -14,7 +14,7 @@ $notice = new mono_display($id, 1, './catalog.php?categ=modif&id=!!id!!', FALSE,
 print pmb_bidi("<div class='row'><b>".$notice->header."</b><br />");
 print pmb_bidi($notice->isbd."</div>");
 $nex = new exemplaire($cb, $expl_id,$id);
-
+print "<h2>Patata</h2>";
 // visibilité des exemplaires
 // $nex->explr_acces_autorise contient INVIS, MODIF ou UNMOD
 
@@ -26,6 +26,7 @@ if ($nex->explr_acces_autorise!="INVIS") {
 } else {
 	print "<div class='row'><div class='colonne10'><img src='./images/error.png' /></div>";
 	print "<div class='colonne-suite'><span class='erreur'>".$msg["err_mod_expl"]."</span>&nbsp;&nbsp;&nbsp;";
-	print "<input type='button' class='bouton' value=\"${msg['bt_retour']}\" name='retour' onClick='history.back(-1);'></div></div>";	
+	print "<input type='button' class='bouton' value=\"${msg['bt_retour']}\" name='retour' onClick='history.back(-1);'>";
+	print "<input type='button' class='bouton' value='Duplicar Banc Llibres' name='dupl_ex_bllibres' id='dupl_ex_bllibres' onClick=\"unload_off();document.location='./catalog.php?categ=dupl_expl_bllibres&id=$id&cb=".urlencode($cb)."&expl_id=".$expl_id."' ; \" /></div></div>";	
 }
 	

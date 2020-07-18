@@ -144,6 +144,10 @@ switch($categ) {
 	case 'del_explnum':
 		include('./catalog/explnum/del_explnum.inc.php');
 		break;
+	// XARXA
+	case 'dupl_expl_bllibres':
+                include('./catalog/expl/dupl_expl_bllibres.inc.php');
+                break;
 	case 'sug' :
 		//Création de suggestion
 		include("./catalog/suggestions/make_sug.inc.php");
